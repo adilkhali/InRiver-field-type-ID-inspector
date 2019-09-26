@@ -7,7 +7,7 @@ function getClickHandler() {
 };
 
 chrome.contextMenus.create({
-  "title" : "Click To Copy Field type ID",
+  "title" : "Copy Field type ID to clipboard",
   "type" : "normal",
   "contexts" : ["selection"],
   "onclick" : getClickHandler()
